@@ -32,3 +32,9 @@ theory : one or more datatype
  + focusing in functions
  + functions can be values that are produced, consumed and composed
  + all this becomes easier in a functional language
+ 
+ pkoi ?
+  + simpler reasoning principles
+  + better modularity
+  + // for multicore
+  
