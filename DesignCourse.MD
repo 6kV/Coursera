@@ -25,3 +25,10 @@ withFilter c'est la même chose que filter mais ça économise des allocations m
 Les For Expressions ne sont pas limités au collections, elle s'applique à toutes les structures avec map, flatmap et withFilter. (even your own types)
 
 See : ScalaQuery & Slick
+
+### Functional Random Generators
+See : ScalaCheck
+
+### Monads
+
+Monad : Data Structure that implements map, flatmap and they should have some algebric lows 
