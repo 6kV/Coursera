@@ -19,3 +19,9 @@ val n = 10
 for ( i <- 1 until n;
       j <- 1 until i if isPrime(i+j)) yield (i,j)
 ```
+
+withFilter c'est la même chose que filter mais ça économise des allocations mémoires intermédiaires  
+
+Les For Expressions ne sont pas limités au collections, elle s'applique à toutes les structures avec map, flatmap et withFilter. (even your own types)
+
+See : ScalaQuery & Slick
