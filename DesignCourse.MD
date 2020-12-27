@@ -31,7 +31,7 @@ See : ScalaCheck
 
 ### Monads
 
-Monad : Data Structure that implements map, flatmap and they should have some algebric laws 
+Monad : Data Structure that implements map, flatmap and they should have some algebric laws
 
 ```scala
 trait Monad[T]{
@@ -48,3 +48,11 @@ map can be expressed by flatmap and unit
 ```scala
 m map f ==  m flatmap ( f andThen unit)
 ```
+Monads Law : 
+ + Associativity
+ + Left Unit : unit(x) flatmap f == f(x) 
+ + Right Unit : m flatmap unit == m 
+ 
+ 
+ Associativity is important for For expression : we can inline nested For Expression
+ Right Unit => For ( x <- m ) yield x == m
