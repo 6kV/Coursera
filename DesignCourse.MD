@@ -31,4 +31,20 @@ See : ScalaCheck
 
 ### Monads
 
-Monad : Data Structure that implements map, flatmap and they should have some algebric lows 
+Monad : Data Structure that implements map, flatmap and they should have some algebric laws 
+
+```scala
+trait Monad[T]{
+  def flatMap[U](f : T => Monad[U]) : Monad[U]
+}
+
+def unit[T](x: T): Monad[T]
+```
+Monad => 2 operations : flatmap & unit  
+sometimes flatmap is called bind
+
+List, Set, Option, Generator are monads  
+map can be expressed by flatmap and unit 
+```scala
+m map f ==  m flatmap ( f andThen unit)
+```
