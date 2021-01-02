@@ -57,6 +57,6 @@ Monads Law :
  Associativity is important for For expression : we can inline nested For Expression
  Right Unit => For ( x <- m ) yield x == m
  
- # Week 2 : Structural Induction
+ # Week 2 : Structural Induction on Trees
  
  Induction Structurelle (ou récursivité Structurelle) : est une méthode de preuve utilisé en logique mathématique, en informatique, en théorie des graphes... Elle est utilisé pour prouver qu'une proposition P(x) est valable pour tout x d'une sorte de strucutre définie de maniére récursive comme des formules, des graphes...   
