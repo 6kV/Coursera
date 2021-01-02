@@ -78,3 +78,19 @@ On peut utiliser toutes les méthodes de list sur les Stream
 :: devient #::
 
 : => (call by name) utilisé pour les stream :)
+
+### Lazy Evaluation
+
+Haskell use by default Lazy evaluation  
+Scala use by default struct evaluation  
+
+```scala
+def expr = {
+    val x = { print("x"); 1 }  
+    lazy val y = { print("y"); 2 }  
+    def z = { print("z"); 3 }  
+    z + y + x + z + y + x
+ }
+```
+
+this will print xzyz
