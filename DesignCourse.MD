@@ -67,5 +67,5 @@ Monads Law :
  si T a des sous arbres s1,s1,... sn alors P(s1) P(s2)... p(sn) impliquent P(T)
  
  ### Stream
- Stream (flux) évalué à la demande
- 
+ Stream (flux) évalué à la demande  
+ avoid computing the tail of sequence until it is needed for the evaluation result (which might be never)
