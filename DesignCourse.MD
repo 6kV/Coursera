@@ -73,3 +73,8 @@ Monads Law :
 ```scala
 (1 to 1000).toStream           res: Stream[Int] = Stream(1,?)
 ```
+
+On peut utiliser toutes les méthodes de list sur les Stream
+:: devient #::
+
+: => (call by name) utilisé pour les stream :)
