@@ -69,3 +69,7 @@ Monads Law :
  ### Stream
  Stream (flux) évalué à la demande  
  avoid computing the tail of sequence until it is needed for the evaluation result (which might be never)
+
+```scala
+(1 to 1000).toStream           res: Stream[Int] = Stream(1,?)
+```
