@@ -94,3 +94,7 @@ def expr = {
 ```
 
 this will print xzyz
+
+### Computing with Infinete sequences
+
+faisable grace aux Lazy evaluation
