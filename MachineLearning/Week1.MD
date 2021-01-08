@@ -41,4 +41,26 @@ alpha : learning rate  (taille du pas)
 
 fonction convexe (forme d'un bol) 
 
+## Matrix
 
+dimension d'une matrice : nbre de row * nbre de colonnes
+Aij
+
+Vector = n*1 matrix
+
+matrix vector multiplication : A3*2 * A2*1 = A3*1
+
+ce qui est intéressant c'est qu'on peut représenter le linear regression with one variable avec une matrice
+
+[1 prix1]         
+[1 prix2]          [O0]  
+[1 prix3]     *   [O1]   
+[1 prix4]  
+[1 prix5] 
+
+
+inverse and transpose  
+Am*m (square matrix)  
+
+inverse A * A-1 = A-1 *  A = I (matrice avec en diagonale que des 1 et le reste des 0)  
+matrix transpose => row becomes columns  
