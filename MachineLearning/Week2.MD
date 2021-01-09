@@ -15,3 +15,11 @@ les variables (nbre de chambre...), on appelle ça aussi **features**
  
  ### Gradient descent for multiple variables
  
+ repeat until convergence
+ {
+   - θ0 := θ0 − α1 m ∑ i=1m (hθ(x(i))−y(i)) x0(i)   
+   - 0θ1:= θ1 − α1 m ∑ i=1m (hθ(x(i))−y(i)) x1(i)   
+   - 0θ2:= θ2 − α1 m ∑ i=1m (hθ(x(i))−y(i)) x2(i)  
+   
+}
+ 
