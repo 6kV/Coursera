@@ -33,4 +33,17 @@ def printSorted[A: Ordering](as: List[A]): Unit = {
 
 ### Implicit query
 
+```scala
+scala> implicitly[Ordering[Int]]
+res0: Ordering[Int] = scala.math.Ordering$Int$@73564ab0
+```
+
+La classe Ordering est un ***typeclass***  
+
+Type classes provide a form of polymorphism: they can be used to implement algorithms that can be applied to various types. The compiler selects the type class implementation for a specific type at compile-time.
+
+A type class definition is a trait that takes type parameters and defines operations that apply to these types. Generally, a type class definition is accompanied by laws, checking that implementations of their operations are correct.
+
+
+
 
