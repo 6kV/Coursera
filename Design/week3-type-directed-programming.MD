@@ -44,6 +44,23 @@ Type classes provide a form of polymorphism: they can be used to implement algor
 
 A type class definition is a trait that takes type parameters and defines operations that apply to these types. Generally, a type class definition is accompanied by laws, checking that implementations of their operations are correct.
 
+ + implicit definitions can also take implicit parameters
+ + an arbitrary number of implicit definitions can be chained until a terminal definition is reached
+ 
+ ### implicit conversion 
+ 
+ They make it possible to automatically convert an expression of a given type to an expression of a different type.
+
+```scala
+
+object Json {
+  import scala.language.implicitConversions
+  implicit def stringToJson(s: String): Json = JString(s)
+  implicit def intToJson(n: Int): Json = JNumber(n)
+  ...
+}
+```
+
 
 
 
