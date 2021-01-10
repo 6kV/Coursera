@@ -61,6 +61,22 @@ object Json {
 }
 ```
 
+### extension method 
 
+```scala
+
+case class Duration(value: Int, unit: TimeUnit)
+
+object Duration {
+
+  object Syntax {
+    import scala.language.implicitConversions
+    implicit class HasSeconds(n: Int) {
+      def seconds: Duration = Duration(n, TimeUnit.Second)
+    }
+  }
+
+}
+```
 
 
