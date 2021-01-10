@@ -79,4 +79,5 @@ object Duration {
 }
 ```
 
-
+un article qui parle de tout ça : 
+https://blog.engineering.publicissapient.fr/2020/09/29/decouvrir-la-programmation-fonctionnelle-5-typeclass/
