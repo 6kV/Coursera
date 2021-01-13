@@ -40,4 +40,9 @@ O = (Xt X)-1 Xt y
 
 Octave, ça donne : O = pinv(X' * X ) * X' * y
 
+No need to do feature Scaling
+Quand utiliser Normal Equation ? quand utiliser Gradient descent ?
+si le nbre de feature commence à être élevé (> 10000), le Normal equation devient trop lent (O(n3))
+
+
 
