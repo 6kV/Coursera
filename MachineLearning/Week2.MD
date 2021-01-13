@@ -31,3 +31,13 @@ exple : nbre de chambre x [0-> 6] devient 0/6 à 6/6
 ***Mean normalization***
 Si parexemple, la moyenne des superficie d'une maison est de 100 m
 au lieu de prendre la feature de 30 à 200 on prend (x - 100)/(200-30)
+
+### Polynomial Regression
+
+### Normal Equation 
+
+O = (Xt X)-1 Xt y
+
+Octave, ça donne : O = pinv(X' * X ) * X' * y
+
+
