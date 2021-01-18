@@ -12,3 +12,7 @@ Bad PArts:
  + Views are stull tightly bound to one state, view update happens immediatly
  
 ### Functional Reactive Programming 
+
+started in 1997  
+based on Signals 
+
