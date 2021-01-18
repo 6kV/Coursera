@@ -1,1 +1,12 @@
 ###
+
+Lambda Calculus: the theory behind fp
+operationel equiavalence if no possible tests can distinguish them
+  
+f(x,y)  
+f(x,x)  
+
+if the results are different, then the expressions x and y are certainly different  
+
+The substituion model ceases to be valid when we add the asignement  
+
