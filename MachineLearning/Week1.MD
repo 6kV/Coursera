@@ -37,7 +37,7 @@ repeat until convergence
 
 Oj != Oj - alpha * d/dOj (J(O0,O1))
 
-alpha : learning rate  (taille du pas)
+alpha : learning rate  (taille du pas)(vitesse de convergence)
 
 fonction convexe (forme d'un bol) 
 
@@ -64,3 +64,22 @@ Am*m (square matrix)
 
 inverse A * A-1 = A-1 *  A = I (matrice avec en diagonale que des 1 et le reste des 0)  
 matrix transpose => row becomes columns  
+
+
+# Others 
+
+on veut tracer la droite qui se rapproche le mieux du nuage de point, trouver cette droite s'appelle faire la **régression linéaire** des données.  
+**Le critére des moindres carré** : c'est ce qui nous permet de déterminer le O0 et le O1 en minimisant la somme des **carrés résidus**.
+
+**Algorithme de la descente du Gradient** 
+
+J(O0,O1) = 3 dimensions (se rappeller de la fonction convexe)
+
++ (g o f)' = f' * g'(f) 
++ g(f) = f²
++ f = a x + b
++ d (1/2m sum(ax +b - y) ² ) / da = 1/m (sum x (ax+b) - y) 
++ d (1/2m sum(ax +b - y) ² ) / db = 1/m (sum (ax + b - y)
+
+
+
