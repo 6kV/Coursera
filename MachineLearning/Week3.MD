@@ -18,3 +18,9 @@ use instead logistic regression
  si on déssine la tangente à n'importe quelle point x , la distance entre x et x1 (intersection de la tangente avec l'axe des abscisse) est toujours égale à 1
  
  la réciproque de exp est logarithme.
+
+We cannot use the same cost function that we use for linear regression because the Logistic Function will cause the output to be wavy, causing many local optima. In other words, it will not be a convex function.
+
++ Cost(hO(x),y) = -log(hO(x)) if y =1
++ Cost(hO(x),y) = -log(1-h0(x)) if y= 0
+
