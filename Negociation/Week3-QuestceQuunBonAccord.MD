@@ -41,4 +41,65 @@ Les étapes menant à un accord :
 + accord partiel
 + accord contingent
 
+### Le mandat
+
+Avant la négociation : clarifier votre mandat  
+Pendant la négociation pensez aux limites du mandat  
+Aprés la négociation, soyez prêt à convaincre votre mandant  
+
+raisons du non respect d'un mandat :  
++ manque de préparation
++ l'incompréhension
++ Le mandant n'est pas trés clair
++ un mandat irréaliste
++ le mandant "carte blanche"
++ vouloir conclure un accord à tout prix
++ ne pas savoir résister à la pression
++ ne pas être d'accord avec le mandat
+
+
+
+### La valeur
+
+Comment générer de la valeur ensemble (rare un accord somme à valeur nulle)
++ repose sur le principe de l'échange (réciprocité, efficacité de l'échange d'information)(diff resources, temporelles, risque)
+
+technique des offres équivalente multiples (meme cout pour vous, mais peut etre différent pour l'autre)  
+Soyze sur de ne pas laisser de la valeur sur la table  
+
+
+### tactique distributivres
+
+Ne pas tomber dans le panneau 
++ nvestissez dans la préparation (asymétrie de l'inforamtion)
++ Cultivez la relation
++ insisteez sur le processus
+
+**Ancrage Excessif** :  
+ + demander des justifications
+ 
+**Que l'autre négocie contre lui-même** :
+ + demander des contre offres ou obtenr des informations
+
+**L'ajout de nouveaux enjeux** : 
+ + rester sur le processus iniatial (rapp de force fav)
+ + jouer la montre (rapport de force defav)
+ 
+**le liévre** : prétendre vouloir qque chose, et faire comme ci on sacrfié cela pour autre chose, le vrai besoin
+ + posez plus de questions
+ 
+ **bon flic/mauvais flic** : (pas en meme temps, au meme endroit)
+ + s'entenir aux faits
+ 
+ **j'ai les mains liées**
+ + proposer de remonter la stuation aux mandants
+ 
+ **ultimatum**
+ + donner un contre ultimatum
+ 
+ **la cerise sur le gâteau**
+ + demander également une concession suplémentaire
+ 
+ 
+ 
 
